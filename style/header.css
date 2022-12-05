@@ -1,0 +1,110 @@
+.header {
+  position: fixed;
+  top: 30px;
+  left: 50px;
+  right: 50px;
+  z-index: 100;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: flex-start;
+}
+
+.davidsierens a {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.portfolio a {
+  width: 128px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.contact a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.active-page {
+  font-weight: 700;
+}
+
+.nonactive-page {
+  font-weight: 300;
+}
+
+.active-page,
+.nonactive-page {
+  cursor: pointer;
+  transition: color 0.15s;
+}
+
+.active-page a:hover,
+.nonactive-page a:hover {
+  color: #17a9bf;
+}
+
+.header-middle {
+  flex: 1;
+}
+
+.header-right {
+  display: flex;
+  align-items: flex-end;
+}
+
+.instagram-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.instagram-icon {
+  width: 20px;
+}
+
+.linkedin-icon-container {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.linkedin-icon {
+  width: 20px;
+}
+
+.vimeo-icon-container {
+  display: flex;
+  align-items: center;
+  margin-left: 36px;
+}
+
+.vimeo-icon {
+  width: 30px;
+}
+
+.instagram-icon,
+.linkedin-icon,
+.vimeo-icon {
+  cursor: pointer;
+  fill: black;
+}
+
+.instagram-icon:hover,
+.linkedin-icon:hover,
+.vimeo-icon:hover {
+  fill: #17a9bf;
+}

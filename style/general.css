@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Inter", sans-serif, Arial;
+  background-color: #f5f4f1;
+  overscroll-behavior-y: none;
+  overflow: hidden;
+  height: 100%;
+  width: 100vw;
+  cursor: default;
+}
+
+/*geen scrollbar aan de zijkant van de pagina*/
+* {
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}

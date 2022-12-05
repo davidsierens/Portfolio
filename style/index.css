@@ -1,0 +1,24 @@
+.background-page-container {
+  margin-top: 100px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.background-left {
+  flex: 1;
+}
+
+.background-center {
+  flex: 5;
+}
+
+.background-image {
+  width: 100%;
+}
+
+.background-right {
+  flex: 1;
+}

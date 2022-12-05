@@ -1,0 +1,57 @@
+.contact-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-contact-page {
+  flex: 1;
+  background-color: none;
+  padding-top: 20%;
+  padding-left: 30%;
+  padding-right: 5%;
+}
+
+.contact-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contact-text {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+.contact-link {
+  font-size: 15px;
+  font-weight: 300;
+  color: black;
+  transition: color 0.15s;
+  cursor: pointer;
+}
+
+.contact-link:hover {
+  color: #17a9bf;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.photo-contact-page-container {
+  flex: 1;
+  background-color: none;
+  padding-top: 20%;
+  padding-right: 30%;
+  padding-left: 5%;
+}
+
+.photo-contact-page {
+  width: 300px;
+}
