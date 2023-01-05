@@ -22,3 +22,77 @@
 .background-right {
   flex: 1;
 }
+
+.mobile-version {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .background-image {
+    display: none;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .mobile-version {
+    display: flex;
+  }
+
+  .text-mobile-page {
+    flex: 1;
+    background-color: none;
+  }
+
+  .mobile-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .mobile-text {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .mobile-text-bottom {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .mobile-link {
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    transition: color 0.15s;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .mobile-link:hover {
+    color: #17a9bf;
+  }
+
+  .mobile-link:hover {
+    color: #17a9bf;
+  }
+
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    text-decoration: none;
+  }
+
+  .background-mobile {
+    max-width: 60%;
+    margin-left: 20%;
+  }
+}
