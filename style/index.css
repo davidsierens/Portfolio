@@ -27,7 +27,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
   .background-image {
     display: none;
   }
@@ -55,25 +55,25 @@
   .mobile-text {
     font-size: 15px;
     font-weight: 300;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     text-align: center;
   }
 
   .mobile-text-bottom {
     font-size: 15px;
     font-weight: 300;
-    margin-bottom: 40px;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 60px;
   }
 
   .mobile-link {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 700;
     color: black;
     transition: color 0.15s;
     cursor: pointer;
     text-align: center;
+    margin-bottom: 30px;
   }
 
   .mobile-link:hover {
