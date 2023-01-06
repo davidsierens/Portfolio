@@ -27,7 +27,7 @@
   display: none;
 }
 
-@media screen and (max-device-width: 500px) and (max-width: 500px){
+@media screen and (max-width: 700px) {
   .background-image {
     display: none;
   }
@@ -94,6 +94,77 @@
   .background-mobile {
     max-width: 20%;
     margin-left: 40%;
-    margin-top: -30%;
+    margin-top: -10%;
+  }
+}
+
+@media screen and (max-device-width: 500px) {
+  .background-image {
+    display: none;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .mobile-version {
+    display: flex;
+  }
+
+  .text-mobile-page {
+    flex: 1;
+    background-color: none;
+  }
+
+  .mobile-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .mobile-text {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .mobile-text-bottom {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 60px;
+  }
+
+  .mobile-link {
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    transition: color 0.15s;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .mobile-link:hover {
+    color: #17a9bf;
+  }
+
+  .mobile-link:hover {
+    color: #17a9bf;
+  }
+
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    text-decoration: none;
+  }
+
+  .background-mobile {
+    width: 20%;
+    margin-left: 40%;
+    margin-top: -10%;
   }
 }
