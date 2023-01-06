@@ -27,7 +27,7 @@
   display: none;
 }
 
-@media screen and (max-device-width: 500px) {
+@media screen and (max-device-width: 500px) and (max-width: 500px){
   .background-image {
     display: none;
   }
